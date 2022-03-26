@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;1,100&family=Mitr:wght@300&display=swap" rel="stylesheet">
+
+
+<style>
+    h1,.title,#title {
+        color: rgb(0, 0, 0);
+        font-family: 'Mitr', sans-serif;
+        font-weight: light;
+        
+    }
+
+    .msg{ 
+        
+        color: rgb(0, 0, 0);
+        font-family: 'Mitr', sans-serif;
+        font-weight: bold;
+    }
+
+    .csg {
+        color: rgb(0, 0, 0);
+        font-family: 'Mitr', sans-serif;
+        font-weight: Regular;
+        
+    }
+    
+
+</style>   
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row"> <!-- nav -->
+            
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                
+                <div class="container-fluid">
+
+                  <a class="navbar-brand" href="index.html">
+                    <img src="image/2.1-removebg-preview.png" alt="" width="50" height="41">
+                  </a> <!-- ชื่อเเบรน เเละลิ้ง -->
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      
+
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">NEW RELEASES</a>
+                      </li>
+                      
+
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">MEN</a>
+                      </li>
+
+
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">WOMEN</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">SALE</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">ACCESSORIES</a>
+                      </li>
+                      
+<!------------------------------------------------------------------------------------------------------------------------------>
+
+                      <!-- <li class="nav-item dropdown"> 
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">ผู้ชาย</a></li>
+                          <li><a class="dropdown-item" href="#">ผู้หญิง</a></li>
+                          <li><a class="dropdown-item" href="#">เด็ก</a></li>
+                        </ul>
+                      </li>-->
+  
+                    </ul>
+
+
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success me-2" type="submit">Search</button>
+                      <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Register"> 
+                      Register
+                    </button>-->
+                  </form>
+<!--  ปุ่ม Register  ------->
+
+                    
+
+<!-- Modal -->
+<a class="btn btn-primary" href="login.html" role="button">Sing in</a>
+                  </div>
+                </div>
+              </nav>
+        </div> <!-- ปิด nav -->
+
+
+        <div class="row"> <!-- carousel ภาพม้าหมุน-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner"> <!-- รายละเอียดรูปภาพ -->
+                  <div class="carousel-item active">
+                    <img src="image/9.5.png" class="d-block w-100" alt="...">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="image/9.3.png" class="d-block w-100" alt="...">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="image/9.8.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>  <!-- ปิดหม้าหมุน -->
+</div><br> 
+
+<div class="container-fluid"> <!-- logo -->
+
+  <div class="row">  <!-- 1 -->
+      <div class="col-1 "></div>
+      <div class="col-1 "></div>
+      <div class="col-1 ">
+        <img src="image/5.1-removebg-preview.png" class="card-img-top" alt="...">
+      </div>
+      <div class="col-1">
+        <img src="image/5.2.png" class="card-img-top" alt="..."></div>
+      <div class="col-1">
+        <img src="image/5.3-removebg-preview.png" class="card-img-top" alt="...">
+      </div>
+      <div class="col-1">
+        <img src="image/5.4-removebg-preview.png" class="card-img-top" alt="...">
+      </div>
+      <div class="col-1">
+        <img src="image/5.5-removebg-preview.png" class="card-img-top" alt="...">
+      </div>
+      <div class="col-1 g-3">
+        <img src="image/5.6-removebg-preview.png" class="card-img-top" alt="...">
+      </div>
+      <div class="col-1">
+        <img src="image/5.7-removebg-preview.png" class="card-img-top" alt="..."></div>
+      <div class="col-1">
+        <img src="image/5.8.png" class="card-img-top" alt="...">
+      </div>
+      <div class="col-1"></div>
+      <div class="col-1"></div>
+  </div>
+  <!-- --------------------------------------------------------------------------------------------------------- -->
+<div class="container"> <!-- รูปรองเท้ารองจากlogo -->
+  <img src="image/6.png" class="card-img-top" alt="...">
+</div> <br>
+
+<div class="row">  <!------- สินค้าตัวอย่าง111111  ------- -->
+  <div class="col-3 "></div>
+  <div class="col-3 ">
+    <center><img src="image/4.4.png" width="230" style="margin-top: 0%;"/> </center>
+  </div>
+  <div class="col-3 ">
+    <strong><h5 class="msg">Jordan Jumpman2021 PE</h5></strong> 
+    <p class="fs-6" id="title" >
+      Jordan Jumpman 2021 PE ได้
+      เเรงบันดาลใจจากดีไซน์รองเท้าเเข่งรุ่นล่าสุด
+      ของ Air Jordan เพื่อช่วยยกระดับเกม
+      เเข่งขันให้กับผู้เล่นดาวรุ่ง </p>
+    <a href="2.html" class="btn btn-dark text-light " id="title">อ่านเพิ่มเติม</a>
+  </div>
+  <div class="col-3 "></div>
+</div><br>
+
+
+<div class="row">  <!------- สินค้าตัวอย่าง22222  ------- -->
+  <div class="col-3 "></div>
+  <div class="col-3 ">
+    <strong><h5 class="msg"> NMD R1</h5></strong> 
+    <p class="fs-6" id="title" >
+      รองเท้าดีไซน์ล้ำสําหรับคนเมือง 
+      โดดเด่นเหนือใครในป่าคอนกรีต 
+      กระชับสบายราวกับสวมถุงเท้าด้วย
+      อัปเปอร์ผ้าถักที่ยืดหยุ่นและรองรับเท้า
+       </p>
+    <a href="2.html" class="btn btn-dark text-light " id="title">อ่านเพิ่มเติม</a>
+  </div>
+  <div class="col-3 ">
+    <center><img src="image/4.2.png" width="250" style="margin-right: 0%;"/> </center>
+  </div>
+  <div class="col-3 "></div>
+</div>
+<!-- --------------------------------------------------------------------------------------- -->
+<br>    
+<div class="container-fluid" style="background-color: #f1f1f1;" > <br>
+  <div class="row">  <!-- 7 -->
+    <h4 class="msg">  NEW ARRIVAL</h4>
+    </div>        
+    
+    <div class="row">  <!------- card --------->
+            <div class="col-2">
+                <div class="card h-100" >
+                    <img src="image/shoe1.2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="title">Superstar</h6>
+                      <h4 class="card-text">฿3,200</h4>
+                      <a href="2.html" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-2">
+                <div class="card h-100" >
+                    <img src="image/6.2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="title">Jordan  Air 1 Low</h6>
+                      <h4 class="card-text">฿3,600</h4>
+                      <a href="2.html" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="col-2">
+                <div class="card h-100">
+                    <img src="image/6.3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="title">Vans  Old Skool Core</h6>
+                      <h4 class="card-text">฿2,400</h4>
+                      <a href="2.html" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-2">
+                <div class="card h-100" >
+                    <img src="image/6.4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="title">FILA Disruptor 2 Premium</h6>
+                      <h4 class="card-text">฿2,990</h4>
+                      <a href="2.html" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-2">
+                <div class="card h-100" >
+                    <img src="image/6.6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="title">Joyride Run Flyknit</h6>
+                      <h4 class="card-text">฿3,200</h4>
+                      <a href="2.html" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-2">
+                <div class="card h-100">
+                    <img src="image/6.7.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="title">PUMA X-Ray JR</h6>
+                      <h4 class="card-text">฿1,790</h4>
+                      <a href="2.html" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+            </div>
+
+        </div><br>
+</div>
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<div class="container-fluid pt-3">
+  <div class="row">  <!-- 7 -->
+  <h4 class="msg">  WHO ARE YOU SHOPPING FOR?</h4>
+  </div>
+</div>
+
+<div class="container" >
+  <a href="index.html" >
+    <img src="image/7.4.png" class="card-img-top" alt="...">
+  </a>
+</div><br>
+  <!-- ----------------------------------------------------------------------------------------------------- -->
+<div class="container-fluid" > 
+  <div class="row">  <!-- 7 -->
+    <h4 class="msg">LOCKDOWN SALE</h4>
+  </div>        
+
+    <div class="container-fluid" >
+      <div class="row ">  <!-- 11 -->
+        <div class="col-2 "></div>
+        <div class="col-2 md-3 g-4 ">
+          <div class="card h-100 ">
+            <img src="image/5.4-removebg-preview.png" class="card-img d-block" />
+          </div>
+        </div>
+        <div class="col-2 md-3 g-4">
+          <div class="card h-100">
+            <img src="image/5.1-removebg-preview.png" class="card-img d-block" />
+          </div>
+        </div>
+        <div class="col-2 md-3 g-4 ">
+          <div class="card h-100">
+            <img src="image/5.7-removebg-preview.png" class="card-img d-block" />
+          </div>
+        </div>
+        <div class="col-2 md-3 g-4">
+          <div class="card h-100">
+            <img src="image/5.3-removebg-preview.png" class="card-img d-block" />
+          </div>
+        </div>
+        <div class="col-2 "></div>
+
+      </div>
+
+      <!-- <div class="row">  
+        <div class="col-2 "></div>
+        <div class="col-2 md-3 g-4">
+          <div class="card h-100 " >
+            <img src="image/5.4-removebg-preview.png" class="card-img " alt="align-middle" />
+          </div>
+        </div>
+        <div class="col-2 md-3 g-4">
+          <div class="card h-100">
+            <img src="image/5.1-removebg-preview.png" class="card-img " />
+          </div>
+        </div>
+        <div class="col-2 md-3 g-4">
+          <div class="card h-100">
+            <img src="image/5.7-removebg-preview.png" class="card-imgp " />
+          </div>
+        </div>
+        <div class="col-2 md-3 g-4">
+          <div class="card h-100">
+            <img src="image/5.3-removebg-preview.png" class="card-img " />
+          </div>
+        </div>
+        <div class="col-2 "></div>
+
+      </div>
+    </div>--><br> 
+
+    <!-- ------------------------------------------------------------------------- -->
+
+   
+    <div class="container-fluid" style="background-color: #f1f1f1;" > <br>
+      <div class="row">  <!-- 7 -->
+        <h4 class="msg">  NEW ARRIVAL</h4>
+        </div>        
+        
+        <div class="row">  <!------- card --------->
+                <div class="col-2">
+                    <div class="card h-100" >
+                        <img src="image/11.1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h6 class="title">Nike Everyday (3คู่)</h6>
+                          <h4 class="card-text">฿500</h4>
+                          <a href="2.html" class="btn btn-primary">Buy</a>
+                        </div>
+                      </div>
+                </div>
+    
+                <div class="col-2">
+                    <div class="card h-100" >
+                        <img src="image/11.2.png" class="card-img-top g-3" alt="...">
+                        <div class="card-body">
+                          <h6 class="title">ถุงเท้ายาวครึ่งแข้ง (3คู่)</h6>
+                          <h4 class="card-text">฿400</h4>
+                          <a href="2.html" class="btn btn-primary">Buy</a>
+                        </div>
+                      </div>
+                </div>
+    
+    
+                <div class="col-2">
+                    <div class="card h-100">
+                        <img src="image/11.3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h6 class="title">ถุงเท้าโลว์คัท (3 คู่)</h6>
+                          <h4 class="card-text">฿590</h4>
+                          <a href="2.html" class="btn btn-primary">Buy</a>
+                        </div>
+                      </div>
+                </div>
+    
+                <div class="col-2">
+                    <div class="card h-100" >
+                        <img src="image/11.4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h6 class="title">RUNNING ADIZERO</h6>
+                          <h4 class="card-text">  ฿550</h4>
+                          <a href="2.html" class="btn btn-primary">Buy</a>
+                        </div>
+                      </div>
+                </div>
+    
+                <div class="col-2">
+                    <div class="card h-100" >
+                        <img src="image/11.5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h6 class="title">ถุงเท้าความยาวครึ่งแข้ง
+                            คัลเลอร์บล็อก (2 คู่)</h6>
+                          <h4 class="card-text">฿500</h4>
+                          <a href="2.html" class="btn btn-primary">Buy</a>
+                        </div>
+                      </div>
+                </div>
+    
+                <div class="col-2">
+                    <div class="card h-100">
+                        <img src="image/11.6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h6 class="title">EVERYDAY CUSH ANIKELE 
+                            (3คู่)</h6>
+                          <h4 class="card-text">฿400</h4>
+                          <a href="2.html" class="btn btn-primary">Buy</a>
+                        </div>
+                      </div>
+                </div>
+    
+            </div><br>
+    </div>
+<!-- ---------------------------------------------------------------------------- -->
+<br><br>
+
+<!-- -------------------------------------------------------------------------------------------- -->
+
+<!-- <div class="row">  carousel ภาพม้าหมุน
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner"> รายละเอียดรูปภาพ 
+        <div class="carousel-item active">
+          <img src="image/9.1.png" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item">
+          <img src="image/9.3.png" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item">
+          <img src="image/9.5.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</div><br>  ปิดหม้าหมุน -->
+
+<div class="container-fluid "></div>
+  <div class="row">  <!-- 7 -->
+  <h4 class="msg text-center">  RUNNING BLOG</h4>
+</div>
+
+<div class="container-fluid "></div>
+  <div class="row">  <!-- 7 -->
+  <h6 class="csg text-center">  View all</h6>
+</div><br>
+
+<div class="container">
+  <div class="row ">  <!-- 11 -->
+    <div class="col-4 ">
+    <img src="image/8.1.png" class="card-img-top" alt="...">  
+    <br>
+    <h5 class="csg text-center ">รองเท้า 10 รุ่นจาก Nike 
+      ที่ต้องมี!!! | ลูกกระจ๊อก</h5>
+    </div>
+
+    
+      <div class="col-4 ">
+      <img src="image/8.2.png" class="card-img-top" alt="...">
+      <h5 class="csg text-center ">เปิดไทม์ไลน์ adidas NMD 
+        จำกันได้ไหม? รองเท้าในตำนาน 
+        ตัวปลุกกระแส Sneaker 
+        ในประเทศไทย | KER WU</h5>
+      </div>
+
+      
+        <div class="col-4 ">
+        <img src="image/8.3.png" class="card-img-top" alt="...">
+        <h5 class="csg text-center  ">ซื้อดีไหม..ดีไซน์ล้ำจัด!! 
+          รีวิวรองเท้า ADIDAS 4D FUSIO 
+          REVIEW & ON FEET</h5>
+        </div>
+</div> <br> <br>
+</div>
+
+<hr>
+
+
+<div id="layoutAuthentication_footer">
+               <footer class="py-4 bg-light mt-auto">
+                   <div class="container-fluid px-4">
+                       <div class="d-flex align-items-center justify-content-between small">
+                           <div class="text-muted">วิธีการสั่งซื้อ  คำแนะนำเรื่องรูปเท้าและไซส์  การส่งของ  การชำระเงิน  เงื่อนไขและนโยบาย</div>
+                           <div>
+                               <a href="#">Privacy Policy</a>
+                               &middot;
+                               <a href="#">Terms &amp; Conditions</a>
+                           </div>
+                       </div>
+                   </div>
+               </footer>
+             </div>
+             </div>
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+             <script src="scripts.js"></script>
+            
+            
+
+
+</body>
+</html>
